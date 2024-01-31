@@ -1385,13 +1385,13 @@ WheelCollider:
     m_ExtremumValue: 1
     m_AsymptoteSlip: 0.8
     m_AsymptoteValue: 0.5
-    m_Stiffness: 1
+    m_Stiffness: 3
   m_SidewaysFriction:
     m_ExtremumSlip: 0.2
     m_ExtremumValue: 1.05
     m_AsymptoteSlip: 0.5
     m_AsymptoteValue: 0.8
-    m_Stiffness: 1
+    m_Stiffness: 1.1
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -16528,13 +16528,13 @@ WheelCollider:
     m_ExtremumValue: 1
     m_AsymptoteSlip: 0.8
     m_AsymptoteValue: 0.5
-    m_Stiffness: 1
+    m_Stiffness: 3
   m_SidewaysFriction:
     m_ExtremumSlip: 0.2
     m_ExtremumValue: 1.05
     m_AsymptoteSlip: 0.5
     m_AsymptoteValue: 0.8
-    m_Stiffness: 1
+    m_Stiffness: 1.1
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -17153,6 +17153,89 @@ MeshRenderer:
   - {fileID: 2100000, guid: 985423591f6a8d943a75e8bbaa273496, type: 2}
   - {fileID: 2100000, guid: 4527dbda5d58f484f8b4f4360105e91e, type: 2}
   - {fileID: 2100000, guid: 1dc8074d6b1a3b348b3b844b253a4a18, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &2993968963682146224
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7436919345224817449}
+  - component: {fileID: 4588262419316913166}
+  - component: {fileID: 1812321237340224206}
+  m_Layer: 14
+  m_Name: CarMarker
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7436919345224817449
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2993968963682146224}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 2.09, z: 0}
+  m_LocalScale: {x: 40, y: 0.8491923, z: 40}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 6185271521230227924}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &4588262419316913166
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2993968963682146224}
+  m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &1812321237340224206
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2993968963682146224}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 03e29fcdf37b79242ad8afa0c3050427, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -23824,13 +23907,13 @@ WheelCollider:
     m_ExtremumValue: 1
     m_AsymptoteSlip: 0.8
     m_AsymptoteValue: 0.5
-    m_Stiffness: 1
+    m_Stiffness: 3
   m_SidewaysFriction:
     m_ExtremumSlip: 0.2
     m_ExtremumValue: 1
     m_AsymptoteSlip: 0.5
     m_AsymptoteValue: 0.75
-    m_Stiffness: 1
+    m_Stiffness: 1.1
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -24218,9 +24301,12 @@ GameObject:
   - component: {fileID: 796609315928409701}
   - component: {fileID: 5274896490290891349}
   - component: {fileID: 6851806416804784631}
+  - component: {fileID: 2386557467184472258}
+  - component: {fileID: 8920250896872524877}
+  - component: {fileID: 590388012859509553}
   m_Layer: 8
   m_Name: M3_E46
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24235,7 +24321,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 6988703392893539639}
   - {fileID: 1677630302233387626}
@@ -24244,6 +24330,7 @@ Transform:
   - {fileID: 6891828002537699324}
   - {fileID: 8305152077510327191}
   - {fileID: 8610943801874112957}
+  - {fileID: 7436919345224817449}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -24301,14 +24388,14 @@ MonoBehaviour:
   RearRightWheelCollider: {fileID: 7692579231913204099}
   ExtraRearWheelsCollider: []
   hasExtraWheels: 0
-  overrideAllWheels: 0
+  overrideAllWheels: 1
   poweredWheels: 0
   SteeringWheel: {fileID: 7640620481000551405}
   steeringWheelRotateAround: 2
-  steeringWheelAngleMultiplier: 3
+  steeringWheelAngleMultiplier: 10
   wheelTypeChoise: 1
   externalController: 0
-  steeringType: 0
+  steeringType: 1
   steerAngleCurve:
     serializedVersion: 2
     m_Curve:
@@ -24316,23 +24403,23 @@ MonoBehaviour:
       time: 0
       value: 40
       inSlope: 0
-      outSlope: -0.3
+      outSlope: 0
       tangentMode: 0
       weightedMode: 0
       inWeight: 0
       outWeight: 0
     - serializedVersion: 3
-      time: 120
-      value: 10
+      time: 130
+      value: 9.144671
       inSlope: -0.115
-      outSlope: -0.1
+      outSlope: -0.115
       tangentMode: 0
       weightedMode: 0
       inWeight: 0
       outWeight: 0
     - serializedVersion: 3
-      time: 200
-      value: 7
+      time: 210
+      value: 6.1446714
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -24343,10 +24430,10 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   steerAngle: 40
-  highspeedsteerAngle: 5
+  highspeedsteerAngle: 10
   highspeedsteerAngleAtspeed: 120
-  antiRollFrontHorizontal: 1000
-  antiRollRearHorizontal: 1000
+  antiRollFrontHorizontal: 2000
+  antiRollRearHorizontal: 2000
   antiRollVertical: 0
   COM: {fileID: 1677630302233387626}
   COMAssister: 0
@@ -24367,8 +24454,8 @@ MonoBehaviour:
       inWeight: 0.33333334
       outWeight: 0.33333334
     - serializedVersion: 3
-      time: 5500
-      value: 450
+      time: 5680
+      value: 478.14462
       inSlope: -0.0060638282
       outSlope: -0.0060638282
       tangentMode: 0
@@ -24376,8 +24463,8 @@ MonoBehaviour:
       inWeight: 0.33333334
       outWeight: 0.33333334
     - serializedVersion: 3
-      time: 8000
-      value: 300
+      time: 8180
+      value: 328.14462
       inSlope: -0.06
       outSlope: -0.06
       tangentMode: 0
@@ -24387,11 +24474,11 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  autoGenerateEngineRPMCurve: 1
+  autoGenerateEngineRPMCurve: 0
   maxEngineTorque: 450
   maxEngineTorqueAtRPM: 5500
-  minEngineRPM: 800
-  maxEngineRPM: 8000
+  minEngineRPM: 1000
+  maxEngineRPM: 7500
   engineRPM: 0
   engineRPMRaw: 0
   engineInertia: 0.15
@@ -24399,18 +24486,18 @@ MonoBehaviour:
   useExhaustFlame: 1
   RunEngineAtAwake: 1
   engineRunning: 0
-  useSteeringLimiter: 1
+  useSteeringLimiter: 0
   useCounterSteering: 1
   useSteeringSensitivity: 1
   counterSteeringFactor: 0.5
   steeringSensitivityFactor: 1
   oldSteeringInput: 0
   steeringDifference: 0
-  useFuelConsumption: 1
+  useFuelConsumption: 0
   fuelTankCapacity: 62
   fuelTank: 62
   fuelConsumptionRate: 0.1
-  useEngineHeat: 1
+  useEngineHeat: 0
   engineHeat: 15
   engineCoolingWaterThreshold: 90
   engineHeatRate: 1
@@ -24568,7 +24655,7 @@ MonoBehaviour:
     - {fileID: 4793432296413401385}
     - {fileID: 4505480042373725630}
     - {fileID: 7692579231913204099}
-  useDamage: 1
+  useDamage: 0
   useCollisionParticles: 1
   useCollisionAudio: 1
   maximumContactSparkle: 5
@@ -24632,6 +24719,61 @@ MonoBehaviour:
     rotateAround: 2
     text: {fileID: 0}
   interiorLights: []
+--- !u!65 &2386557467184472258
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5576470754632710353}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.5965025, y: 0.5210476, z: 0.25836703}
+  m_Center: {x: 0.020704586, y: -0.25572574, z: 2.4353318}
+--- !u!114 &8920250896872524877
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5576470754632710353}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65426ef1f8d37c74d8af7872f0c2da81, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  roadTag: Road
+  raycastLength: 1
+  outsideRoadSidewaysStiffness: 0.5
+  outsideRoadForwardStiffness: 0.7
+  defaultSidewaysStiffness: 1.1
+  defaultForwardStiffness: 2
+  roadLayerMask:
+    serializedVersion: 2
+    m_Bits: 8192
+--- !u!114 &590388012859509553
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5576470754632710353}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2be1c7e1657ef3e42904694e55a9fcbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CurrentWP: 0
 --- !u!1 &6000258548268380111
 GameObject:
   m_ObjectHideFlags: 0
@@ -25106,13 +25248,13 @@ WheelCollider:
     m_ExtremumValue: 1
     m_AsymptoteSlip: 0.8
     m_AsymptoteValue: 0.5
-    m_Stiffness: 1
+    m_Stiffness: 3
   m_SidewaysFriction:
     m_ExtremumSlip: 0.2
     m_ExtremumValue: 1
     m_AsymptoteSlip: 0.5
     m_AsymptoteValue: 0.75
-    m_Stiffness: 1
+    m_Stiffness: 1.1
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0

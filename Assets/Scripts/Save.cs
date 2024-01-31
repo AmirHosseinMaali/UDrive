@@ -13,6 +13,7 @@ public class Save : MonoBehaviour
     public static float BestLapTimesSeconds;
     public static float LastLapTimesMinute;
     public static float LastLapTimesSeconds;
+    public static bool WrongWay = false;
 
     // Update is called once per frame
     void Update()

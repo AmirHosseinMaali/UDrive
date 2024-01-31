@@ -13,6 +13,7 @@ public class UI : MonoBehaviour
     public TMP_Text BestLapTimeMinutesText;
     public TMP_Text BestLapTimeSecondsText;
     public GameObject NewRecord;
+    public GameObject WrongWay;
     public int TotalLaps = 3;
     // Start is called before the first frame update
     void Start()
@@ -28,6 +29,7 @@ public class UI : MonoBehaviour
         LapTimer();
         RaceTimer();
         BestLapTimer();
+        WrongWayCheck();
     }
 
     private void BestLapTimer()
@@ -114,6 +116,17 @@ public class UI : MonoBehaviour
         yield return new WaitForSeconds(seconds);
 
         NewRecord.SetActive(false);
+    }
+    private void WrongWayCheck()
+    {
+        if (Save.WrongWay)
+        {
+            WrongWay.SetActive(true);
+        }
+        else
+        {
+            WrongWay.SetActive(false) ;
+        }
     }
 
 }
