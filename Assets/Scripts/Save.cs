@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class Save : MonoBehaviour
@@ -14,6 +15,8 @@ public class Save : MonoBehaviour
     public static float LastLapTimesMinute;
     public static float LastLapTimesSeconds;
     public static bool WrongWay = false;
+    public static bool WWTextReset = false;
+    public static bool RaceStart = false;
 
     // Update is called once per frame
     void Update()

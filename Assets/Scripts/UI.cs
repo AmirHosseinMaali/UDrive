@@ -12,6 +12,7 @@ public class UI : MonoBehaviour
     public TMP_Text RaceTimeSecondsText;
     public TMP_Text BestLapTimeMinutesText;
     public TMP_Text BestLapTimeSecondsText;
+    public TMP_Text WrongWayT;
     public GameObject NewRecord;
     public GameObject WrongWay;
     public int TotalLaps = 3;
@@ -125,8 +126,17 @@ public class UI : MonoBehaviour
         }
         else
         {
-            WrongWay.SetActive(false) ;
+            WrongWay.SetActive(false);
         }
+        if (Save.WWTextReset == false)
+        {
+            WrongWayT.text = "WRONG WAY!";
+        }
+        if (Save.WWTextReset == true)
+        {
+            WrongWayT.text = " ";
+        }
+
     }
 
 }

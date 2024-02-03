@@ -8,8 +8,11 @@ public class Lap : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
+            Save.WWTextReset = true;
+            StartCoroutine(WrongWayReset());
             if (Save.CheckPointPass)
             {
+
                 Save.LastLapTimesMinute = Save.LapTimesMinute;
                 Save.LastLapTimesSeconds = Save.LapTimesSeconds;
                 Save.LapNumber++;
@@ -19,11 +22,16 @@ public class Lap : MonoBehaviour
                     Save.BestLapTimesMinute = Save.LastLapTimesMinute;
                     Save.BestLapTimesSeconds = Save.LastLapTimesSeconds;
                 }
-                if (Save.LapNumber==4)
+                if (Save.LapNumber == 4)
                 {
                     SceneManager.LoadScene(4);
                 }
             }
         }
+    }
+    IEnumerator WrongWayReset()
+    {
+        yield return new WaitForSeconds(1.5f);
+        Save.WWTextReset = false;
     }
 }

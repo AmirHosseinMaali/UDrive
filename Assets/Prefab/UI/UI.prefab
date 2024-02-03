@@ -2033,6 +2033,7 @@ MonoBehaviour:
   RaceTimeSecondsText: {fileID: 7451880868983524651}
   BestLapTimeMinutesText: {fileID: 7122231937707413556}
   BestLapTimeSecondsText: {fileID: 5329316897184686931}
+  WrongWayT: {fileID: 6580623382476071624}
   NewRecord: {fileID: 1800753444736475695}
   WrongWay: {fileID: 8339513852163276191}
   TotalLaps: 3
