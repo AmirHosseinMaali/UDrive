@@ -31,7 +31,6 @@ public class StartingLight : MonoBehaviour
         AmberLightOn.SetActive(false);
         GreenLightOff.SetActive(false);
         GreenLightOn.SetActive(true);
-        yield return new WaitForSeconds(.5f);
         Save.RaceStart = true;
 
     }
