@@ -12,15 +12,29 @@ public class UI : MonoBehaviour
     public TMP_Text RaceTimeSecondsText;
     public TMP_Text BestLapTimeMinutesText;
     public TMP_Text BestLapTimeSecondsText;
+    public TMP_Text TimeTrialMinutesG;
+    public TMP_Text TimeTrialMinutesS;
+    public TMP_Text TimeTrialMinutesB;
+    public TMP_Text TimeTrialSecondsG;
+    public TMP_Text TimeTrialSecondsS;
+    public TMP_Text TimeTrialSecondsB;
+    public TMP_Text TotalCarsText;
+    public TMP_Text PlayerPositions;
     public TMP_Text WrongWayT;
     public GameObject NewRecord;
     public GameObject WrongWay;
     public int TotalLaps = 3;
+    public int TotalCars = 1;
+
     // Start is called before the first frame update
     void Start()
     {
+        TimeTrail();
         LapNumberText.text = "0";
         TotalLapsText.text = "/" + TotalLaps.ToString();
+        TotalCarsText.text = "/" + TotalCars.ToString();
+        Save.MaxLaps = TotalLaps;
+        PlayerPositions.text = "1";
     }
 
     // Update is called once per frame
@@ -31,6 +45,8 @@ public class UI : MonoBehaviour
         RaceTimer();
         BestLapTimer();
         WrongWayCheck();
+
+        PlayerPositions.text = Save.PlayerPosition.ToString();
     }
 
     private void BestLapTimer()
@@ -106,6 +122,33 @@ public class UI : MonoBehaviour
         else if (Save.RaceTimesSeconds > 9)
         {
             RaceTimeSecondsText.text = (Mathf.Round(Save.RaceTimesSeconds).ToString());
+        }
+    }
+    private void TimeTrail()
+    {
+        if (Save.TimeTrialMinG < 9)
+        {
+            TimeTrialMinutesG.text = (Save.TimeTrialMinG.ToString()) + ":";
+            TimeTrialMinutesS.text = (Save.TimeTrialMinS.ToString()) + ":";
+            TimeTrialMinutesB.text = (Save.TimeTrialMinB.ToString()) + ":";
+        }
+        if (Save.TimeTrialMinG <= 9)
+        {
+            TimeTrialMinutesG.text = "0" + (Save.TimeTrialMinG.ToString()) + ":";
+            TimeTrialMinutesS.text = "0" + (Save.TimeTrialMinS.ToString()) + ":";
+            TimeTrialMinutesB.text = "0" + (Save.TimeTrialMinB.ToString()) + ":";
+        }
+        if (Save.TimeTrialSecG <= 9)
+        {
+            TimeTrialSecondsG.text = "0" + (Save.TimeTrialSecG.ToString());
+            TimeTrialSecondsS.text = "0" + (Save.TimeTrialSecS.ToString());
+            TimeTrialSecondsB.text = "0" + (Save.TimeTrialSecB.ToString());
+        }
+        else if (Save.TimeTrialSecG > 9)
+        {
+            TimeTrialSecondsG.text = (Save.TimeTrialSecG.ToString());
+            TimeTrialSecondsS.text = (Save.TimeTrialSecS.ToString());
+            TimeTrialSecondsB.text = (Save.TimeTrialSecB.ToString());
         }
     }
 

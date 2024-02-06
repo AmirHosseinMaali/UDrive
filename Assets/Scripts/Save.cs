@@ -1,9 +1,10 @@
-using Unity.VisualScripting;
 using UnityEngine;
 
 public class Save : MonoBehaviour
 {
     public static int LapNumber;
+    public static int MaxLaps;
+    public static int PlayerPosition;
     public static bool LapChange = false;
     public static bool CheckPointPass = true;
     public static float LapTimesMinute;
@@ -14,34 +15,45 @@ public class Save : MonoBehaviour
     public static float BestLapTimesSeconds;
     public static float LastLapTimesMinute;
     public static float LastLapTimesSeconds;
+    public static float TimeTrialMinG;
+    public static float TimeTrialMinS;
+    public static float TimeTrialMinB;
+    public static float TimeTrialSecG;
+    public static float TimeTrialSecS;
+    public static float TimeTrialSecB;
     public static bool WrongWay = false;
     public static bool WWTextReset = false;
     public static bool RaceStart = false;
+    public static bool RaceOver = false;
 
     // Update is called once per frame
     void Update()
     {
-        if (LapChange && CheckPointPass)
+        if (!RaceOver)
         {
-            CheckPointPass = false;
-            LapChange = false;
-            LapTimesMinute = 0;
-            LapTimesSeconds = 0;
-        }
-        if (LapNumber >= 1)
-        {
-            LapTimesSeconds += Time.deltaTime;
-            RaceTimesSeconds += Time.deltaTime;
-        }
-        if (LapTimesSeconds > 59)
-        {
-            LapTimesSeconds = 0;
-            LapTimesMinute++;
-        }
-        if (RaceTimesSeconds > 59)
-        {
-            RaceTimesSeconds = 0;
-            RaceTimesMinute++;
+
+            if (LapChange && CheckPointPass)
+            {
+                CheckPointPass = false;
+                LapChange = false;
+                LapTimesMinute = 0;
+                LapTimesSeconds = 0;
+            }
+            if (LapNumber >= 1)
+            {
+                LapTimesSeconds += Time.deltaTime;
+                RaceTimesSeconds += Time.deltaTime;
+            }
+            if (LapTimesSeconds > 59)
+            {
+                LapTimesSeconds = 0;
+                LapTimesMinute++;
+            }
+            if (RaceTimesSeconds > 59)
+            {
+                RaceTimesSeconds = 0;
+                RaceTimesMinute++;
+            }
         }
     }
 }

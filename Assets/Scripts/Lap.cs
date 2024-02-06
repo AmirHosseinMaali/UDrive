@@ -1,6 +1,5 @@
 using System.Collections;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class Lap : MonoBehaviour
 {
@@ -10,21 +9,21 @@ public class Lap : MonoBehaviour
         {
             Save.WWTextReset = true;
             StartCoroutine(WrongWayReset());
-            if (Save.CheckPointPass)
+            if (!Save.RaceOver)
             {
 
-                Save.LastLapTimesMinute = Save.LapTimesMinute;
-                Save.LastLapTimesSeconds = Save.LapTimesSeconds;
-                Save.LapNumber++;
-                Save.LapChange = true;
-                if (Save.LapNumber == 2)
+                if (Save.CheckPointPass)
                 {
-                    Save.BestLapTimesMinute = Save.LastLapTimesMinute;
-                    Save.BestLapTimesSeconds = Save.LastLapTimesSeconds;
-                }
-                if (Save.LapNumber == 4)
-                {
-                    SceneManager.LoadScene(4);
+
+                    Save.LastLapTimesMinute = Save.LapTimesMinute;
+                    Save.LastLapTimesSeconds = Save.LapTimesSeconds;
+                    Save.LapNumber++;
+                    Save.LapChange = true;
+                    if (Save.LapNumber == 2)
+                    {
+                        Save.BestLapTimesMinute = Save.LastLapTimesMinute;
+                        Save.BestLapTimesSeconds = Save.LastLapTimesSeconds;
+                    }
                 }
             }
         }
