@@ -22,4 +22,55 @@ public class RaceTime : MonoBehaviour
             Save.TimeTrialSecB = BronzeSeconds;
         }
     }
+    private void Update()
+    {
+        CalculateReward();
+    }
+
+    private void CalculateReward()
+    {
+        if (!Save.RaceOver)
+        {
+            return;
+        }
+        if (!TimeTrial)
+        {
+            return;
+        }
+        if (Save.RaceTimesMinute < GoldMinutes)
+        {
+            Debug.Log("Gold");
+            Save.Gold = true;
+        }
+        else if (Save.RaceTimesMinute == GoldMinutes && Save.RaceTimesSeconds <= GoldSeconds)
+        {
+            Debug.Log("Gold");
+            Save.Gold = true;
+        }
+        else if (Save.RaceTimesMinute < SilverMinutes)
+        {
+            Debug.Log("Silver");
+            Save.Silver = true;
+        }
+        else if (Save.RaceTimesMinute == SilverMinutes && Save.RaceTimesSeconds <= SilverSeconds)
+        {
+            Debug.Log("Silver");
+            Save.Silver = true;
+        }
+        else if (Save.RaceTimesMinute < BronzeMinutes)
+        {
+            Debug.Log("Bronze");
+            Save.Bronze = true;
+        }
+        else if (Save.RaceTimesMinute == BronzeMinutes && Save.RaceTimesSeconds <= BronzeSeconds)
+        {
+            Debug.Log("Bronze");
+            Save.Bronze = true;
+        }
+        else
+        {
+            Debug.Log("Fail");
+            Save.Fail = true;
+        }
+    }
 }

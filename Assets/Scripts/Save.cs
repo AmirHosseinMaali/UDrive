@@ -25,6 +25,10 @@ public class Save : MonoBehaviour
     public static bool WWTextReset = false;
     public static bool RaceStart = false;
     public static bool RaceOver = false;
+    public static bool Gold = false;
+    public static bool Silver = false;
+    public static bool Bronze = false;
+    public static bool Fail = false;
 
     // Update is called once per frame
     void Update()
