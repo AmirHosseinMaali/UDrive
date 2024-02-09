@@ -21,6 +21,7 @@ public class Save : MonoBehaviour
     public static float TimeTrialSecG;
     public static float TimeTrialSecS;
     public static float TimeTrialSecB;
+    public static float PenaltySeconds;
     public static bool WrongWay = false;
     public static bool WWTextReset = false;
     public static bool RaceStart = false;
@@ -45,9 +46,10 @@ public class Save : MonoBehaviour
             }
             if (LapNumber >= 1)
             {
-                LapTimesSeconds += Time.deltaTime;
-                RaceTimesSeconds += Time.deltaTime;
+                LapTimesSeconds += Time.deltaTime + PenaltySeconds;
+                RaceTimesSeconds += Time.deltaTime + PenaltySeconds;
             }
+
             if (LapTimesSeconds > 59)
             {
                 LapTimesSeconds = 0;

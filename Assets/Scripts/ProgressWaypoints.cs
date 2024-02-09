@@ -4,7 +4,6 @@ public class ProgressWaypoints : MonoBehaviour
 {
     public int WPNumber;
     public int CarTracking = 0;
-    public bool PenaltyOption = false;
     public int PenaltyWayPoint;
     public int Position = 0;
 
@@ -22,13 +21,6 @@ public class ProgressWaypoints : MonoBehaviour
             if (CarTracking > WPNumber)
             {
                 other.GetComponent<ProgressTracker>().LastWPNumber = WPNumber;
-            }
-            if (PenaltyOption)
-            {
-                if (CarTracking < PenaltyWayPoint)
-                {
-                    Debug.Log("Penalty");
-                }
             }
         }
     }
