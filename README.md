@@ -1,4 +1,4 @@
-This project was used to be my univercity project.
+This project was used to be my university project.
 It's an unfinished Racing Sim.
 Feel free to use it.
 
