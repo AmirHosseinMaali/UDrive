@@ -29,7 +29,7 @@ public class UI : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        TimeTrail();
+        TimeTrial();
         LapNumberText.text = "0";
         TotalLapsText.text = "/" + TotalLaps.ToString();
         TotalCarsText.text = "/" + TotalCars.ToString();
@@ -124,7 +124,7 @@ public class UI : MonoBehaviour
             RaceTimeSecondsText.text = (Mathf.Round(Save.RaceTimesSeconds).ToString());
         }
     }
-    private void TimeTrail()
+    private void TimeTrial()
     {
         if (Save.TimeTrialMinG < 9)
         {

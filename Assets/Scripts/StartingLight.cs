@@ -3,8 +3,8 @@ using UnityEngine;
 
 public class StartingLight : MonoBehaviour
 {
-    public GameObject RightLightOff;
-    public GameObject RightLightOn;
+    public GameObject RedLightOff;
+    public GameObject RedLightOn;
     public GameObject AmberLightOff;
     public GameObject AmberLightOn;
     public GameObject GreenLightOff;
@@ -22,12 +22,12 @@ public class StartingLight : MonoBehaviour
     IEnumerator StartingLights()
     {
         yield return new WaitForSeconds(1);
-        RightLightOff.SetActive(false);
-        RightLightOn.SetActive(true);
+        RedLightOff.SetActive(false);
+        RedLightOn.SetActive(true);
         Sound1.Play();
         yield return new WaitForSeconds(1);
-        RightLightOff.SetActive(true);
-        RightLightOn.SetActive(false);
+        RedLightOff.SetActive(true);
+        RedLightOn.SetActive(false);
         Sound1.Play();
         AmberLightOff.SetActive(false);
         AmberLightOn.SetActive(true);

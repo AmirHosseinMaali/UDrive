@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class GameModeSelection : MonoBehaviour
 {
-    public void MirrorMode()
+    public void TimeTrial()
     {
         SceneManager.LoadScene(2);
     }

@@ -4,7 +4,6 @@ public class ProgressWaypoints : MonoBehaviour
 {
     public int WPNumber;
     public int CarTracking = 0;
-    public int PenaltyWayPoint;
     public int Position = 0;
 
     private void OnTriggerEnter(Collider other)

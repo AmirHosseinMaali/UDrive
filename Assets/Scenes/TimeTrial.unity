@@ -193,7 +193,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 209
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1 &12230398
 GameObject:
@@ -263,7 +262,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 158
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!4 &14502529 stripped
 Transform:
@@ -339,7 +337,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 140
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1001 &21034511
 PrefabInstance:
@@ -562,7 +559,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 172
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!4 &27977622 stripped
 Transform:
@@ -638,7 +634,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 167
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!4 &29453260 stripped
 Transform:
@@ -876,7 +871,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 138
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1001 &35619802
 PrefabInstance:
@@ -1045,7 +1039,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 59
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1 &53778799
 GameObject:
@@ -1714,7 +1707,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 78
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1001 &107810576
 PrefabInstance:
@@ -1865,7 +1857,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 55
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1 &131612495
 GameObject:
@@ -1935,7 +1926,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 191
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!4 &142255543 stripped
 Transform:
@@ -2011,7 +2001,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 193
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!4 &145274655 stripped
 Transform:
@@ -2168,7 +2157,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 26
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1 &154543317
 GameObject:
@@ -2238,7 +2226,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 7
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1001 &155647230
 PrefabInstance:
@@ -2470,7 +2457,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 63
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1 &182533790
 GameObject:
@@ -2540,7 +2526,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 109
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!4 &182650698 stripped
 Transform:
@@ -2622,7 +2607,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 197
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1 &187859773
 GameObject:
@@ -2692,7 +2676,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 12
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!114 &190138413 stripped
 MonoBehaviour:
@@ -2774,7 +2757,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 152
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1001 &194620360
 PrefabInstance:
@@ -3206,7 +3188,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 183
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1001 &248029914
 PrefabInstance:
@@ -3216,10 +3197,15 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1800753444736475695, guid: b2ea547a33158b64b9205a14f67d5de0,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3059619743859771318, guid: b2ea547a33158b64b9205a14f67d5de0,
         type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3059619743859771318, guid: b2ea547a33158b64b9205a14f67d5de0,
         type: 3}
@@ -3286,6 +3272,11 @@ PrefabInstance:
       propertyPath: PlayerPositions
       value: 
       objectReference: {fileID: 190138413}
+    - target: {fileID: 8339513852163276191, guid: b2ea547a33158b64b9205a14f67d5de0,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8630995916716698117, guid: b2ea547a33158b64b9205a14f67d5de0,
         type: 3}
       propertyPath: m_Name
@@ -3364,7 +3355,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 162
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!4 &252467076 stripped
 Transform:
@@ -3440,7 +3430,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 149
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1 &260692597
 GameObject:
@@ -3510,7 +3499,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 176
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1 &271804737
 GameObject:
@@ -3663,7 +3651,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 2
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!4 &289716431 stripped
 Transform:
@@ -3739,7 +3726,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 124
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!4 &293447863 stripped
 Transform:
@@ -3815,7 +3801,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 47
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1001 &300327904
 PrefabInstance:
@@ -4363,7 +4348,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 83
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1 &325556785
 GameObject:
@@ -4547,7 +4531,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 127
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!4 &342042961 stripped
 Transform:
@@ -4629,7 +4612,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 95
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!4 &351332943 stripped
 Transform:
@@ -4705,7 +4687,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 178
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!4 &355087364 stripped
 Transform:
@@ -4787,7 +4768,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 145
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1 &373682474
 GameObject:
@@ -4857,7 +4837,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 203
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1 &378007595
 GameObject:
@@ -5041,7 +5020,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 150
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!4 &379803583 stripped
 Transform:
@@ -5117,7 +5095,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 32
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!4 &388990867 stripped
 Transform:
@@ -5309,7 +5286,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 10
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1001 &406174174
 PrefabInstance:
@@ -5460,7 +5436,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 113
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1 &415719007
 GameObject:
@@ -5852,7 +5827,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 165
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1 &422858744
 GameObject:
@@ -5922,7 +5896,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 3
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1 &433957770
 GameObject:
@@ -5992,7 +5965,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 177
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1 &435900099
 GameObject:
@@ -6062,7 +6034,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 195
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!4 &439784596 stripped
 Transform:
@@ -6138,7 +6109,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 179
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1001 &457903073
 PrefabInstance:
@@ -6302,12 +6272,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6f1c4a61df85dcd47821dc9497adb1e6, type: 3}
---- !u!4 &464698854 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 2001642070191916454, guid: 0477b2d2dc8b31a49b7096512bc838da,
-    type: 3}
-  m_PrefabInstance: {fileID: 8243944972013358570}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &469277868
 GameObject:
   m_ObjectHideFlags: 0
@@ -6376,7 +6340,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 136
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!4 &469506300 stripped
 Transform:
@@ -6452,7 +6415,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 6
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1 &479466478
 GameObject:
@@ -6522,7 +6484,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 194
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!4 &482314114 stripped
 Transform:
@@ -6685,7 +6646,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 122
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1 &490225325
 GameObject:
@@ -6755,7 +6715,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 155
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1 &495074209
 GameObject:
@@ -6825,7 +6784,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 181
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1 &495680578
 GameObject:
@@ -6895,7 +6853,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 91
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1 &498112126
 GameObject:
@@ -6965,7 +6922,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 153
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1 &505671198
 GameObject:
@@ -7035,7 +6991,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 189
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1 &507580532
 GameObject:
@@ -7105,7 +7060,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 180
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1001 &525653855
 PrefabInstance:
@@ -7256,7 +7210,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 96
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1 &532274788
 GameObject:
@@ -7716,7 +7669,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 14
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!4 &551505024 stripped
 Transform:
@@ -7838,7 +7790,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 4
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!4 &572716251 stripped
 Transform:
@@ -7914,7 +7865,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 108
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1001 &576696008
 PrefabInstance:
@@ -8094,7 +8044,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 50
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1001 &578352680
 PrefabInstance:
@@ -8251,7 +8200,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 184
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1001 &593554945
 PrefabInstance:
@@ -8582,7 +8530,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 134
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!4 &607220573 stripped
 Transform:
@@ -8820,7 +8767,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 45
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1001 &623535178
 PrefabInstance:
@@ -8977,7 +8923,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 39
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!4 &639535904 stripped
 Transform:
@@ -9053,7 +8998,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 118
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1 &647565114
 GameObject:
@@ -9123,7 +9067,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 30
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1001 &648193612
 PrefabInstance:
@@ -9390,7 +9333,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 204
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1001 &669265854
 PrefabInstance:
@@ -9622,7 +9564,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 112
   CarTracking: 0
-  PenaltyWayPoint: 104
   Position: 0
 --- !u!1 &678803433
 GameObject:
@@ -9692,7 +9633,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 44
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!4 &689978789 stripped
 Transform:
@@ -9774,7 +9714,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 93
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1 &695091200
 GameObject:
@@ -9844,7 +9783,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 16
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1 &702068102
 GameObject:
@@ -9914,7 +9852,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 20
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1001 &704799075
 PrefabInstance:
@@ -10065,7 +10002,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 60
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1 &706689747 stripped
 GameObject:
@@ -10164,7 +10100,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 163
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1 &719520139
 GameObject:
@@ -10525,7 +10460,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 187
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1 &729364708
 GameObject:
@@ -10595,7 +10529,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 141
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1 &730474713
 GameObject:
@@ -10665,7 +10598,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 87
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1 &732393957
 GameObject:
@@ -10735,7 +10667,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 64
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1 &732410189
 GameObject:
@@ -10805,7 +10736,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 156
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1001 &733497045
 PrefabInstance:
@@ -10956,7 +10886,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 105
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!4 &744322757 stripped
 Transform:
@@ -11032,7 +10961,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 62
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1 &748985792
 GameObject:
@@ -11266,7 +11194,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 75
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1 &756330634
 GameObject:
@@ -11336,7 +11263,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 85
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!4 &761684628 stripped
 Transform:
@@ -11373,7 +11299,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &771630367
 GameObject:
@@ -11443,7 +11369,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 130
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1 &771927128
 GameObject:
@@ -11513,7 +11438,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 120
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1 &786447330
 GameObject:
@@ -11788,7 +11712,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 106
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1001 &811866931
 PrefabInstance:
@@ -12107,7 +12030,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 143
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!4 &827355985 stripped
 Transform:
@@ -12183,7 +12105,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 208
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!4 &831972575 stripped
 Transform:
@@ -12259,7 +12180,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 171
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!4 &836286939 stripped
 Transform:
@@ -12727,7 +12647,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 121
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1 &870363744
 GameObject:
@@ -12797,7 +12716,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 81
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1 &872345487
 GameObject:
@@ -12867,7 +12785,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 77
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1001 &876062823
 PrefabInstance:
@@ -13018,7 +12935,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 174
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1 &882137527
 GameObject:
@@ -13088,7 +13004,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 65
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!4 &884364877 stripped
 Transform:
@@ -13245,7 +13160,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 91
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1 &892506116
 GameObject:
@@ -13315,7 +13229,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 67
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1 &893188343
 GameObject:
@@ -13385,7 +13298,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 132
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!4 &893373026 stripped
 Transform:
@@ -13467,7 +13379,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 73
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1 &905088987
 GameObject:
@@ -13537,7 +13448,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 28
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1001 &906212882
 PrefabInstance:
@@ -13688,7 +13598,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 71
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1 &908926357
 GameObject:
@@ -13758,7 +13667,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 58
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1 &913384669
 GameObject:
@@ -13912,7 +13820,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 159
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!4 &934126237 stripped
 Transform:
@@ -13988,7 +13895,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 202
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1 &953496244
 GameObject:
@@ -14058,7 +13964,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 210
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!4 &961324133 stripped
 Transform:
@@ -14134,7 +14039,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 72
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1 &970548981
 GameObject:
@@ -14204,7 +14108,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 36
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1 &975226239
 GameObject:
@@ -14274,7 +14177,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 61
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1 &976028862
 GameObject:
@@ -14344,7 +14246,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 31
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1 &976829585
 GameObject:
@@ -14414,7 +14315,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 146
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1 &978489745
 GameObject:
@@ -14484,7 +14384,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 125
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1001 &980372713
 PrefabInstance:
@@ -14716,7 +14615,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 82
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1 &999902073
 GameObject:
@@ -14852,7 +14750,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 123
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!4 &1001100771 stripped
 Transform:
@@ -14928,7 +14825,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 190
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!4 &1006813355 stripped
 Transform:
@@ -15004,7 +14900,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 53
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!4 &1008850567 stripped
 Transform:
@@ -15080,7 +14975,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 22
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1 &1026962345
 GameObject:
@@ -15150,7 +15044,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 48
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1 &1027717714
 GameObject:
@@ -15220,7 +15113,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 46
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1 &1030123941 stripped
 GameObject:
@@ -15596,7 +15488,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 98
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!4 &1072817891 stripped
 Transform:
@@ -15672,7 +15563,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 173
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!4 &1081126095 stripped
 Transform:
@@ -15748,7 +15638,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 66
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1 &1089049520 stripped
 GameObject:
@@ -15940,7 +15829,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 142
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1001 &1108563960
 PrefabInstance:
@@ -16091,7 +15979,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 117
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1 &1108730160
 GameObject:
@@ -16161,7 +16048,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 131
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1001 &1112941224
 PrefabInstance:
@@ -16312,7 +16198,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 69
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1 &1115897822
 GameObject:
@@ -16382,7 +16267,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 115
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!4 &1119277650 stripped
 Transform:
@@ -16574,7 +16458,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 192
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1001 &1144075753
 PrefabInstance:
@@ -16841,7 +16724,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 114
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!4 &1156322810 stripped
 Transform:
@@ -16917,7 +16799,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 38
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!4 &1161635169 stripped
 Transform:
@@ -16993,7 +16874,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 17
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1001 &1175218165
 PrefabInstance:
@@ -17244,152 +17124,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6f1c4a61df85dcd47821dc9497adb1e6, type: 3}
---- !u!1 &1190245405
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1190245406}
-  - component: {fileID: 1190245409}
-  - component: {fileID: 1190245408}
-  - component: {fileID: 1190245407}
-  - component: {fileID: 1190245410}
-  m_Layer: 0
-  m_Name: Camera
-  m_TagString: MainCamera
-  m_Icon: {fileID: 3936346786652291628, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1190245406
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1190245405}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1277562188}
-  m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!81 &1190245407
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1190245405}
-  m_Enabled: 1
---- !u!124 &1190245408
-Behaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1190245405}
-  m_Enabled: 1
---- !u!20 &1190245409
-Camera:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1190245405}
-  m_Enabled: 1
-  serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0.019607844}
-  m_projectionMatrixMode: 1
-  m_GateFitMode: 2
-  m_FOVAxisMode: 0
-  m_Iso: 200
-  m_ShutterSpeed: 0.005
-  m_Aperture: 16
-  m_FocusDistance: 10
-  m_FocalLength: 50
-  m_BladeCount: 5
-  m_Curvature: {x: 2, y: 11}
-  m_BarrelClipping: 0.25
-  m_Anamorphism: 0
-  m_SensorSize: {x: 36, y: 24}
-  m_LensShift: {x: 0, y: 0}
-  m_NormalizedViewPortRect:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1
-    height: 1
-  near clip plane: 0.1
-  far clip plane: 500
-  field of view: 60
-  orthographic: 0
-  orthographic size: 10
-  m_Depth: 0
-  m_CullingMask:
-    serializedVersion: 2
-    m_Bits: 16247
-  m_RenderingPath: -1
-  m_TargetTexture: {fileID: 0}
-  m_TargetDisplay: 0
-  m_TargetEye: 3
-  m_HDR: 1
-  m_AllowMSAA: 1
-  m_AllowDynamicResolution: 0
-  m_ForceIntoRT: 1
-  m_OcclusionCulling: 1
-  m_StereoConvergence: 10
-  m_StereoSeparation: 0.022
---- !u!114 &1190245410
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1190245405}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_RenderShadows: 1
-  m_RequiresDepthTextureOption: 2
-  m_RequiresOpaqueTextureOption: 2
-  m_CameraType: 0
-  m_Cameras: []
-  m_RendererIndex: -1
-  m_VolumeLayerMask:
-    serializedVersion: 2
-    m_Bits: 1
-  m_VolumeTrigger: {fileID: 0}
-  m_VolumeFrameworkUpdateModeOption: 2
-  m_RenderPostProcessing: 0
-  m_Antialiasing: 0
-  m_AntialiasingQuality: 2
-  m_StopNaN: 0
-  m_Dithering: 0
-  m_ClearDepth: 1
-  m_AllowXRRendering: 1
-  m_AllowHDROutput: 1
-  m_UseScreenCoordOverride: 0
-  m_ScreenSizeOverride: {x: 0, y: 0, z: 0, w: 0}
-  m_ScreenCoordScaleBias: {x: 0, y: 0, z: 0, w: 0}
-  m_RequiresDepthTexture: 0
-  m_RequiresColorTexture: 0
-  m_Version: 2
-  m_TaaSettings:
-    quality: 3
-    frameInfluence: 0.1
-    jitterScale: 1
-    mipBias: 0
-    varianceClampScale: 0.9
-    contrastAdaptiveSharpening: 0
 --- !u!1 &1190591352
 GameObject:
   m_ObjectHideFlags: 0
@@ -17458,7 +17192,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 23
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1 &1190763007
 GameObject:
@@ -17528,7 +17261,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 29
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1001 &1203091686
 PrefabInstance:
@@ -17685,7 +17417,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 164
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1001 &1226813917
 PrefabInstance:
@@ -17836,7 +17567,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 154
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1001 &1232313907
 PrefabInstance:
@@ -18181,7 +17911,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 199
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!4 &1244614830 stripped
 Transform:
@@ -18379,7 +18108,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 205
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1 &1266978015
 GameObject:
@@ -18480,7 +18208,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 94
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!4 &1273773485 stripped
 Transform:
@@ -18488,38 +18215,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1150162871}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1277562187
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1277562188}
-  m_Layer: 0
-  m_Name: Pivot
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1277562188
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1277562187}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1190245406}
-  m_Father: {fileID: 1912402152}
-  m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1297085727 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4040137310881316, guid: 6f1c4a61df85dcd47821dc9497adb1e6,
@@ -18594,7 +18289,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 21
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!4 &1305503607 stripped
 Transform:
@@ -18906,7 +18600,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1321751783
 PrefabInstance:
@@ -19057,7 +18751,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 126
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1 &1349431947
 GameObject:
@@ -19127,7 +18820,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 166
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1 &1351067501
 GameObject:
@@ -19197,7 +18889,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 13
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1001 &1357170484
 PrefabInstance:
@@ -19366,7 +19057,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 139
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1 &1377489688
 GameObject:
@@ -19436,7 +19126,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 100
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!4 &1381246606 stripped
 Transform:
@@ -19640,7 +19329,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 37
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1001 &1400845749
 PrefabInstance:
@@ -20127,7 +19815,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 52
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1 &1419813013
 GameObject:
@@ -20197,7 +19884,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 15
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1001 &1420890275
 PrefabInstance:
@@ -20435,7 +20121,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 161
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1 &1429435274 stripped
 GameObject:
@@ -20826,7 +20511,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 129
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!4 &1447729391 stripped
 Transform:
@@ -20983,7 +20667,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 151
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1 &1462563061
 GameObject:
@@ -21053,7 +20736,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 175
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1001 &1467480653
 PrefabInstance:
@@ -21285,7 +20967,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 19
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1001 &1476912144
 PrefabInstance:
@@ -21436,7 +21117,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 54
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1 &1486270933 stripped
 GameObject:
@@ -21616,7 +21296,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 35
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1 &1503924399
 GameObject:
@@ -21686,7 +21365,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 101
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1 &1504149542
 GameObject:
@@ -21839,7 +21517,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 198
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1001 &1506736525
 PrefabInstance:
@@ -22104,7 +21781,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 42
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1 &1514618566
 GameObject:
@@ -22174,7 +21850,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 11
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1 &1522308767 stripped
 GameObject:
@@ -22273,7 +21948,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 24
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1 &1527648979
 GameObject:
@@ -22343,7 +22017,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 128
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1 &1534026826 stripped
 GameObject:
@@ -22534,7 +22207,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 182
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!4 &1551729686 stripped
 Transform:
@@ -22610,7 +22282,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 51
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!4 &1564281115 stripped
 Transform:
@@ -22767,7 +22438,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 160
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!4 &1579351778 stripped
 Transform:
@@ -22938,7 +22608,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 97
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1 &1595978366
 GameObject:
@@ -23008,7 +22677,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 1
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1 &1596267929
 GameObject:
@@ -23113,7 +22781,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 57
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1 &1602324706
 GameObject:
@@ -23183,7 +22850,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 147
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1 &1606749319
 GameObject:
@@ -23253,7 +22919,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 148
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1 &1615152033
 GameObject:
@@ -23291,7 +22956,7 @@ Transform:
   - {fileID: 415719008}
   - {fileID: 314879803}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1624418080
 GameObject:
@@ -23361,7 +23026,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 70
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1001 &1624462693
 PrefabInstance:
@@ -23763,7 +23427,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 144
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1001 &1648740435
 PrefabInstance:
@@ -24003,7 +23666,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 90
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1 &1670722541
 GameObject:
@@ -24073,7 +23735,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 80
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1 &1671799951
 GameObject:
@@ -24143,7 +23804,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 137
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1 &1679717544
 GameObject:
@@ -24213,7 +23873,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 107
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1 &1682902245
 GameObject:
@@ -24283,7 +23942,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 34
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1 &1703977492
 GameObject:
@@ -24353,7 +24011,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 33
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1 &1705085029 stripped
 GameObject:
@@ -24966,7 +24623,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 196
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1001 &1724141663
 PrefabInstance:
@@ -25117,7 +24773,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 170
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1 &1735387841
 GameObject:
@@ -25348,7 +25003,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 27
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1 &1744432404
 GameObject:
@@ -25418,7 +25072,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 86
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1 &1753239855
 GameObject:
@@ -25488,7 +25141,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 40
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!4 &1759276049 stripped
 Transform:
@@ -25564,7 +25216,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 49
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!4 &1762089654 stripped
 Transform:
@@ -25646,7 +25297,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 201
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1 &1769226394
 GameObject:
@@ -25716,7 +25366,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 110
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1 &1777810003
 GameObject:
@@ -25786,7 +25435,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 84
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1001 &1778163717
 PrefabInstance:
@@ -25937,7 +25585,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 186
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1001 &1788045115
 PrefabInstance:
@@ -26088,7 +25735,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 43
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1001 &1791625084
 PrefabInstance:
@@ -26239,7 +25885,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 8
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1 &1793733460
 GameObject:
@@ -26309,7 +25954,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 119
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1 &1795036408
 GameObject:
@@ -26379,7 +26023,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 133
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1 &1803895190
 GameObject:
@@ -26449,7 +26092,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 185
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1001 &1818551679
 PrefabInstance:
@@ -26681,7 +26323,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 103
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1 &1829984689
 GameObject:
@@ -26751,7 +26392,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 135
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1 &1830524685
 GameObject:
@@ -26821,7 +26461,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 207
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1 &1833925008
 GameObject:
@@ -26891,7 +26530,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 41
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1001 &1838576689
 PrefabInstance:
@@ -27042,7 +26680,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 188
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1 &1839538243
 GameObject:
@@ -27112,7 +26749,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 88
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1001 &1847362797
 PrefabInstance:
@@ -27263,7 +26899,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 169
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1001 &1852054904
 PrefabInstance:
@@ -27495,7 +27130,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 102
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!4 &1865739575 stripped
 Transform:
@@ -27571,7 +27205,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 5
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1 &1874427677 stripped
 GameObject:
@@ -27670,7 +27303,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 68
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1 &1875077986
 GameObject:
@@ -27740,7 +27372,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 18
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!4 &1876156701 stripped
 Transform:
@@ -28179,7 +27810,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 74
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!4 &1901157543 stripped
 Transform:
@@ -28342,111 +27972,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 56
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
---- !u!1 &1912402150
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1912402152}
-  - component: {fileID: 1912402151}
-  m_Layer: 0
-  m_Name: RCCCamera
-  m_TagString: Untagged
-  m_Icon: {fileID: 2974397684917235467, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!114 &1912402151
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1912402150}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c260b9344a9770347934a90c90132918, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cameraTarget:
-    playerVehicle: {fileID: 0}
-  isRendering: 1
-  actualCamera: {fileID: 0}
-  pivot: {fileID: 1277562187}
-  cameraMode: 0
-  TPSLockX: 1
-  TPSLockY: 1
-  TPSLockZ: 0
-  TPSFreeFall: 0
-  TPSDynamic: 1
-  useTopCameraMode: 1
-  useHoodCameraMode: 1
-  useOrbitInTPSCameraMode: 1
-  useOrbitInHoodCameraMode: 1
-  useWheelCameraMode: 1
-  useFixedCameraMode: 0
-  useCinematicCameraMode: 0
-  useOrthoForTopCamera: 1
-  useOcclusion: 1
-  occlusionLayerMask:
-    serializedVersion: 2
-    m_Bits: 305
-  useAutoChangeCamera: 0
-  topCameraAngle: {x: 45, y: 45, z: 0}
-  topCameraDistance: 100
-  maximumZDistanceOffset: 10
-  TPSDistance: 6
-  TPSHeight: 2
-  TPSRotationDamping: 0.7
-  TPSTiltMaximum: 15
-  TPSTiltMultiplier: 0.5
-  TPSYaw: 0
-  TPSPitch: 8
-  TPSAutoFocus: 1
-  TPSAutoReverse: 1
-  TPSCollision: 1
-  TPSOffset: {x: 0, y: 0, z: 0.35}
-  TPSStartRotation: {x: 0, y: 0, z: 0}
-  TPSMinimumFOV: 40
-  TPSMaximumFOV: 60
-  hoodCameraFOV: 60
-  wheelCameraFOV: 60
-  minimumOrtSize: 7.5
-  maximumOrtSize: 12.5
-  acceleration: {x: 0, y: 0, z: 0}
-  lastVelocity: {x: 0, y: 0, z: 0}
-  acceleration_Smoothed: {x: 0, y: 0, z: 0}
-  zoomScrollMultiplier: 5
-  minimumScroll: 0
-  maximumScroll: 5
-  minOrbitY: -15
-  maxOrbitY: 70
-  orbitXSpeed: 100
-  orbitYSpeed: 100
-  orbitSmooth: 40
-  orbitReset: 1
-  lookBackNow: 0
---- !u!4 &1912402152
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1912402150}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1277562188}
-  m_Father: {fileID: 464698854}
-  m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1913023185
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -28602,7 +28128,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 99
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1 &1934914400
 GameObject:
@@ -28707,7 +28232,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 200
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1 &1951911447
 GameObject:
@@ -28777,7 +28301,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 89
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!4 &1958991018 stripped
 Transform:
@@ -29048,7 +28571,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 9
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1 &1978687849
 GameObject:
@@ -29254,7 +28776,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 79
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1 &2015786052
 GameObject:
@@ -29659,7 +29180,7 @@ Transform:
   - {fileID: 24417033}
   - {fileID: 6874704097552366318}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2034153542
 GameObject:
@@ -29729,7 +29250,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 76
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1 &2037037267
 GameObject:
@@ -29888,7 +29408,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 116
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!4 &2044123826 stripped
 Transform:
@@ -30126,7 +29645,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 25
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1001 &2060379450
 PrefabInstance:
@@ -30283,7 +29801,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 104
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1 &2070275076
 GameObject:
@@ -30353,7 +29870,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 157
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1001 &2076424994
 PrefabInstance:
@@ -30668,7 +30184,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 206
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!1 &2094484000
 GameObject:
@@ -30738,7 +30253,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 111
   CarTracking: 0
-  PenaltyWayPoint: 104
   Position: 0
 --- !u!4 &2098299542 stripped
 Transform:
@@ -31071,7 +30585,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 168
   CarTracking: 0
-  PenaltyWayPoint: 0
   Position: 0
 --- !u!4 &2138188672 stripped
 Transform:
@@ -33022,8 +32535,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bee9afede2673b94295d5e19696bc2f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  RightLightOff: {fileID: 1147697051}
-  RightLightOn: {fileID: 1978687849}
+  RedLightOff: {fileID: 1147697051}
+  RedLightOn: {fileID: 1978687849}
   AmberLightOff: {fileID: 2017033676}
   AmberLightOn: {fileID: 1126698188}
   GreenLightOff: {fileID: 722518374}
@@ -33781,79 +33294,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!1001 &5425092075489534329
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 2670289307824258476, guid: f4e79bdfba9e72d458dc0fbba0bc79b1,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2670289307824258476, guid: f4e79bdfba9e72d458dc0fbba0bc79b1,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2670289307824258476, guid: f4e79bdfba9e72d458dc0fbba0bc79b1,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2670289307824258476, guid: f4e79bdfba9e72d458dc0fbba0bc79b1,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2670289307824258476, guid: f4e79bdfba9e72d458dc0fbba0bc79b1,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2670289307824258476, guid: f4e79bdfba9e72d458dc0fbba0bc79b1,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2670289307824258476, guid: f4e79bdfba9e72d458dc0fbba0bc79b1,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2670289307824258476, guid: f4e79bdfba9e72d458dc0fbba0bc79b1,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2670289307824258476, guid: f4e79bdfba9e72d458dc0fbba0bc79b1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2670289307824258476, guid: f4e79bdfba9e72d458dc0fbba0bc79b1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2670289307824258476, guid: f4e79bdfba9e72d458dc0fbba0bc79b1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6921121646411495374, guid: f4e79bdfba9e72d458dc0fbba0bc79b1,
-        type: 3}
-      propertyPath: m_Name
-      value: ScreenRotation
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: f4e79bdfba9e72d458dc0fbba0bc79b1, type: 3}
 --- !u!1 &5483095002642252960
 GameObject:
   m_ObjectHideFlags: 0
@@ -35447,7 +34887,7 @@ PrefabInstance:
     - target: {fileID: 2001642070191916454, guid: 0477b2d2dc8b31a49b7096512bc838da,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2001642070191916454, guid: 0477b2d2dc8b31a49b7096512bc838da,
         type: 3}
@@ -35527,22 +34967,22 @@ PrefabInstance:
     - target: {fileID: 2885468227518588580, guid: 0477b2d2dc8b31a49b7096512bc838da,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.7740028
+      value: 0.77400273
       objectReference: {fileID: 0}
     - target: {fileID: 2885468227518588580, guid: 0477b2d2dc8b31a49b7096512bc838da,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.097920835
+      value: 0.09792085
       objectReference: {fileID: 0}
     - target: {fileID: 2885468227518588580, guid: 0477b2d2dc8b31a49b7096512bc838da,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.6206179
+      value: 0.620618
       objectReference: {fileID: 0}
     - target: {fileID: 2885468227518588580, guid: 0477b2d2dc8b31a49b7096512bc838da,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.07851577
+      value: -0.07851579
       objectReference: {fileID: 0}
     - target: {fileID: 4469217062891933590, guid: 0477b2d2dc8b31a49b7096512bc838da,
         type: 3}
@@ -35562,6 +35002,21 @@ PrefabInstance:
     - target: {fileID: 5253904007714436545, guid: 0477b2d2dc8b31a49b7096512bc838da,
         type: 3}
       propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7164727800346720458, guid: 0477b2d2dc8b31a49b7096512bc838da,
+        type: 3}
+      propertyPath: m_BackGroundColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7164727800346720458, guid: 0477b2d2dc8b31a49b7096512bc838da,
+        type: 3}
+      propertyPath: m_BackGroundColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7164727800346720458, guid: 0477b2d2dc8b31a49b7096512bc838da,
+        type: 3}
+      propertyPath: m_BackGroundColor.r
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7349909623814429428, guid: 0477b2d2dc8b31a49b7096512bc838da,
@@ -35617,22 +35072,22 @@ PrefabInstance:
     - target: {fileID: 8747112427570015985, guid: 0477b2d2dc8b31a49b7096512bc838da,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.7740028
+      value: 0.77400273
       objectReference: {fileID: 0}
     - target: {fileID: 8747112427570015985, guid: 0477b2d2dc8b31a49b7096512bc838da,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.097920835
+      value: 0.09792085
       objectReference: {fileID: 0}
     - target: {fileID: 8747112427570015985, guid: 0477b2d2dc8b31a49b7096512bc838da,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.6206179
+      value: 0.620618
       objectReference: {fileID: 0}
     - target: {fileID: 8747112427570015985, guid: 0477b2d2dc8b31a49b7096512bc838da,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.07851577
+      value: -0.07851579
       objectReference: {fileID: 0}
     - target: {fileID: 8747112427570015985, guid: 0477b2d2dc8b31a49b7096512bc838da,
         type: 3}
@@ -35660,11 +35115,7 @@ PrefabInstance:
     - {fileID: 1608542834195841249, guid: 0477b2d2dc8b31a49b7096512bc838da, type: 3}
     m_RemovedGameObjects:
     - {fileID: 2410434262617610873, guid: 0477b2d2dc8b31a49b7096512bc838da, type: 3}
-    m_AddedGameObjects:
-    - targetCorrespondingSourceObject: {fileID: 2001642070191916454, guid: 0477b2d2dc8b31a49b7096512bc838da,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1912402152}
+    m_AddedGameObjects: []
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 6143902787361422867, guid: 0477b2d2dc8b31a49b7096512bc838da,
         type: 3}

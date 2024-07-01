@@ -12,11 +12,11 @@ EditorBuildSettings:
     path: Assets/Scenes/GameModeSelection.unity
     guid: cb135a58bf293e149b3b95d59cc381d1
   - enabled: 1
-    path: Assets/Scenes/MirrorMode.unity
-    guid: 99c9720ab356a0642a771bea13969a05
+    path: Assets/Scenes/TimeTrial.unity
+    guid: ca40ced1735fd2f499a67a9cc08d3e1d
   - enabled: 1
-    path: Assets/Scenes/AiMode.unity
-    guid: e66e571ca98b2f84e9a3ac2e63ebebd0
+    path: Assets/Scenes/AIMode.unity
+    guid: 729af5deecb8a704d8c44a13bec05e0b
   - enabled: 1
     path: Assets/Scenes/GameOver.unity
     guid: 2eab4d795e994e14b981235f0a2c87a3
